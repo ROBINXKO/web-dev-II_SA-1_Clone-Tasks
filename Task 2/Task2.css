@@ -1,0 +1,1620 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #070410;
+    width:100%;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "lato";
+    src: url(font/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: "teko";
+    src: url(font/Teko-Regular.ttf);
+}
+header{
+    background-color: #4dccdb;
+    height: 82px;
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    position: relative;
+}
+h1{
+    font-size: 3em;
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    font-family: "teko";
+}
+.Nav{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    font-size: 2em;
+    position: relative;
+    top: 16px;
+    font-family: "lato";
+}
+.search{
+   
+    background-color: red;
+    font-family: "teko";
+    font-size: 2em;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+nav{
+    display: grid;
+    width: 996px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    height: 1px;
+    gap: 48px;
+    height: 3535px;
+    
+}
+.M1{
+    background-color: #ffffff;
+    width: 900px;
+    height:1098px;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    max-width: 100%;
+}
+.M1img{
+    width: 900px;
+    max-width: 100%;
+    height: auto;
+    z-index: 1;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+
+}
+h2{
+    font-family: "teko";
+    font-size: 1.5em;
+    position: relative;
+    color: black;
+    z-index: 1;
+    left: 16px;
+}
+.M1div{
+  display: flex;
+  gap: 16px;
+  position: absolute;
+  top: 964px;
+  left: 48px;
+  flex-direction: column;
+  grid-template-columns: 1fr 1fr 2fr;
+  width: 900px;
+}
+.M1p{
+  color: #070410;
+  font-family: "lato";
+  z-index: 1;
+  font-size: 1.5em;
+  width: 718px;
+  position: relative;
+  left: 16px;
+}
+.watchnow1{
+    background-color: #231651;
+    color: #ffffff;
+    width:150px;
+    height: 150px;
+    font-family: "teko";
+    font-size: 2em;
+    border: 0px;
+    border-radius: 20px;
+    position: absolute;
+    right: 16px;
+    
+}
+.M2{
+    width: 426px;
+    height: 805px;
+    background-color:#ffffff;
+    position: absolute;
+    top: 1194px;
+    left: 48px;
+}
+.M3{
+    width: 426px;
+    height: 805px;
+    background-color:#ffffff;
+    position: absolute;
+    top: 1194px;
+    left: 522px;
+    display: grid;
+
+}
+.M2img{
+    width: 426px;
+    height: auto;
+    position: absolute;
+    top: 1194px;
+    left: 48px;
+    z-index: 1;
+
+}
+.M2div{
+    display: grid;
+    gap: 16px;
+    position: absolute;
+    top: 1636px;
+    left: 48px;
+    flex-direction: column;
+    width: 426px; 
+}
+h3{
+    font-family: "teko";
+    font-size: 1.5em;
+    position: relative;
+    left: 16px;
+}
+.M2p{
+    font-family: "lato";
+    font-size: 1.5em; 
+    width: 394px;
+    position: relative;
+    left: 16px;
+}
+.watchnow2{
+    background-color: #231651;
+    color: #ffffff;
+    width:394px;
+    height: 50px;
+    font-family: "teko";
+    font-size: 2em;
+    border: 0px;
+    border-radius: 20px;
+    position: relative;
+    left:0;
+    right: 0;
+    margin-inline: auto;
+  
+}
+.M3img{
+    width: 426px;
+    height: auto;
+    position: absolute;
+    top: 1194px;
+    z-index: 1;
+    left: 522px;
+}
+.M3div{
+    display: grid;
+    gap: 16px;
+    position: absolute;
+    top: 1636px;
+    left: 522px;
+    flex-direction: column;
+    width: 426px; 
+    max-width: 100%;
+}
+h4{
+
+    font-family: "teko";
+    font-size: 1.5em;
+    position: relative;
+    left: 16px;
+}
+.M3p{
+    font-family: "lato";
+    font-size: 1.5em; 
+    width: 394px;
+    position: relative;
+    left: 16px; 
+}
+.watchnow3{
+    background-color: #231651;
+    color: #ffffff;
+    width:394px;
+    height: 50px;
+    font-family: "teko";
+    font-size: 2em;
+    border: 0px;
+    border-radius: 20px;
+    position: relative;
+    left:0;
+    right: 0;
+    margin-inline: auto;
+}
+.M4{
+    width: 900px;
+    height: 450px;
+    background-color:#ffffff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    display: grid;
+    top: 2047px;
+
+}
+.M4img{
+    position: absolute;
+    width: 450px;
+    top: 2047px;
+    left: 48px;
+    height: auto;
+
+}
+.M4div{
+    display: grid;
+    gap: 16px;
+    position: absolute;
+    top: 2063px;
+    left: 498px;
+    flex-direction: column;
+    width: 426px; 
+    max-width: 100%; 
+    z-index: 1;
+}
+h5{
+    font-family: "teko";
+    font-size: 1.5em;
+    position: relative;
+    left: 16px;
+}
+.M4p{
+font-family: "lato";
+font-size: 1.5em; 
+width: 394px;
+position: relative;
+left: 16px; 
+}
+.watchnow4{
+    background-color: #231651;
+    color: #ffffff;
+    width:394px;
+    height: 50px;
+    font-family: "teko";
+    font-size: 2em;
+    border: 0px;
+    border-radius: 20px;
+    position: relative;
+    left:0;
+    right: 0;
+    margin-inline: auto;
+}
+.M5{
+    width: 900px;
+    height: 450px;
+    background-color:#ffffff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    display: grid;
+    top: 2545px;
+}
+.M5img{
+   width: 450px;
+   height: auto; 
+   position: absolute;
+   top:2545px;
+   left: 48px;
+}
+.M5div{
+    display: grid;
+    gap: 16px;
+    position: absolute;
+    top: 2561px;
+    left: 498px;
+    flex-direction: column;
+    width: 426px; 
+    max-width: 100%; 
+    z-index: 1;
+}
+h6{
+    font-family: "teko";
+    font-size: 1.5em;
+    position: relative;
+    left: 16px;  
+}
+.M5p{
+    font-family: "lato";
+    font-size: 1.5em; 
+    width: 394px;
+    position: relative;
+    left: 16px;   
+}
+.watchnow5{
+    background-color: #231651;
+    color: #ffffff;
+    width:394px;
+    height: 50px;
+    font-family: "teko";
+    font-size: 2em;
+    border: 0px;
+    border-radius: 20px;
+    position: relative;
+    left:0;
+    right: 0;
+    margin-inline: auto; 
+}
+.M6{
+    width: 900px;
+    height: 450px;
+    background-color:#ffffff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    display: grid;
+    top: 3043px;
+    left: 0px;
+}
+.M6img{
+    width: 450px;
+    height: auto; 
+    position: absolute;
+    top:3043px;
+    left: 48px;
+ }
+.M6div{
+    display: grid;
+    gap: 16px;
+    position: absolute;
+    top: 3059px;
+    left: 498px;
+    flex-direction: column;
+    width: 426px; 
+    max-width: 100%; 
+    z-index: 1;
+}
+.M6heading{
+    font-family: "teko";
+    font-size: 1.5em;
+    position: relative;
+    left: 16px;
+}
+.M6p{
+    font-family: "lato";
+    font-size: 1.5em; 
+    width: 394px;
+    position: relative;
+    left: 16px;    
+}
+.watchnow6{
+    background-color: #231651;
+    color: #ffffff;
+    width:394px;
+    height: 50px;
+    font-family: "teko";
+    font-size: 2em;
+    border: 0px;
+    border-radius: 20px;
+    position: relative;
+    left:0;
+    right: 0;
+    margin-inline: auto; 
+}
+
+
+
+@media(min-width:720px) and (max-width:1024px){
+        header{
+            background-color: #4dccdb;
+            height: 82px;
+           max-width: 100%;
+           min-width: 720px;
+           min-width: 1024px;
+           
+                     
+          
+        }
+        h1{
+            font-size: 3em;
+            position: relative;
+            left: 16px;
+            top: 16px;
+            font-family: "teko";
+            width: fit-content;
+        }
+    
+        .Nav{
+          
+            gap: 32px;
+            font-size: 1em;
+            position:absolute;
+            top: 32px;
+            left: 0;
+            right: 0;
+            margin-inline: auto;
+            font-family: "lato";
+        }
+        .search{
+           
+            background-color: red;
+            font-family: "teko";
+            font-size: 2em;
+            position: absolute;
+            right: 16px;
+            top: 16px;
+            height: 50px;
+            width: 100px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+        }
+        
+        nav{
+            display: grid;
+            width: 0px;
+            position: absolute;
+            left: 0px;
+            height: 0px;
+            gap: 48px;
+            height: 2613px;
+            
+        }
+        nav{
+            display: grid;
+            left: 0px;
+            position: absolute;
+            width: 100%;
+            min-width: 1024px;
+         
+        }
+        .M1{
+            background-color: #ffffff;
+            margin-inline: 0;
+            height: 863px;
+            position: absolute;
+            top: 32px;
+            left: 32px;
+            width: 464px;
+            max-width: 100%;
+        }
+        .M1img{
+            width: 464px;
+            max-width: 100%;
+            height: auto;
+            z-index: 1;
+            position: relative;
+            top: 31px;
+            left: 32px;
+            margin-inline: 0;
+        
+        }
+        h2{
+            font-family: "teko";
+            font-size: 1.5em;
+            position: relative;
+            color: black;
+            z-index: 1;
+            left: 0px;
+        }
+        .M1div{
+          display: flex;
+          gap: 16px;
+          position: absolute;
+          top: 511px;
+          left: 48px;
+          height: max-content;
+          flex-direction: column;
+         
+          width: 432px;
+         
+        }
+        .M1p{
+          color: #070410;
+          font-family: "lato";
+          z-index: 1;
+          font-size: 1.5em;
+          width: 432px;
+          position: relative;
+          left: 0px;
+        }
+        .watchnow1{
+            background-color: #231651;
+            color: #ffffff;
+            width:100%;
+            height: 100px;
+            font-family: "teko";
+            font-size: 2em;
+            border: 0px;
+            border-radius: 20px;
+            position: absolute;
+            top:238px;
+            left: 0px;
+        }
+        .M2{
+            width: 312px;
+            height: 863px;
+            background-color:#ffffff;
+            position: absolute;
+            top: 32px;
+            left: 528px;
+            width: 464px;
+        }
+       
+        .M2img{
+            width: 464px;
+            height: auto;
+            position: absolute;
+            top: 32px;
+            left: 528px;
+            z-index: 1;
+        
+        }
+        .M2div{
+            display: grid;
+            gap: 16px;
+            position: absolute;
+            top: 511px;
+            left: 544px;
+            flex-direction: column;
+            width: 432px; 
+        }
+        h3{
+            font-family: "teko";
+            font-size: 1.5em;
+            position: relative;
+            left: 0px;
+        }
+        .M2p{
+            font-family: "lato";
+            font-size: 1.5em; 
+            width: 432px;
+            position: relative;
+            left: 0px;
+        }
+        .watchnow2{
+            background-color: #231651;
+            color: #ffffff;
+            width:100%;
+            height: 100px;
+            font-family: "teko";
+            font-size: 2em;
+            border: 0px;
+            border-radius: 20px;
+            position: relative;
+            left:0;
+          
+          
+        }
+        .M3{
+            width: 464px;
+            height: 863px;
+            background-color:#ffffff;
+            position: absolute;
+            top: 927px;
+            left: 32px;
+            display: grid;
+        
+        }
+        .M3img{
+            width: 464px;
+            height: auto;
+            position: absolute;
+            top: 927px;
+            z-index: 1;
+            left: 32px;
+        }
+    
+        .M3div{
+            display: grid;
+            gap: 16px;
+            position: absolute;
+            top: 1406px;
+            left: 48px;
+            flex-direction: column;
+            width: 432px; 
+            max-width: 100%;
+        }
+        h4{
+        
+            font-family: "teko";
+            font-size: 1.5em;
+            position: relative;
+            left: 0px;
+        }
+        .M3p{
+            font-family: "lato";
+            font-size: 1.5em; 
+            width: 432px; 
+            position: relative;
+            left: 0px; 
+        }
+        .watchnow3{
+            background-color: #231651;
+            color: #ffffff;
+            width:100%;
+            height: 100px;
+            font-family: "teko";
+            font-size: 2em;
+            border: 0px;
+            border-radius: 20px;
+            position: relative;
+            left:0;
+           
+        }
+        .M4{
+            width: 464px;
+            height: 863px;
+            background-color:#ffffff;
+            position: absolute;
+            left: 528px;
+            display: grid;
+            top: 927px;
+            margin-inline: 0;
+        }
+        .M4img{
+            position: absolute;
+            left: 528px;
+            width: 464px;
+            top: 927px;
+            height: auto;
+        
+        }
+        .M4div{
+            display: grid;
+            gap: 16px;
+            position: absolute;
+            top: 1406px;
+            left: 544px;
+            flex-direction: column;
+            width: 432px; 
+            max-width: 100%; 
+            z-index: 1;
+        }
+        h5{
+            font-family: "teko";
+            font-size: 1.5em;
+            position: relative;
+            left: 0px;
+        }
+        .M4p{
+        font-family: "lato";
+        font-size: 1.5em; 
+        width: 432px; 
+        position: relative;
+        left: 0px; 
+        }
+        .watchnow4{
+            background-color: #231651;
+            color: #ffffff;
+            width:100%;
+            height: 100px;
+            font-family: "teko";
+            font-size: 2em;
+            border: 0px;
+            border-radius: 20px;
+            position: relative;
+            left:0;
+         
+        }
+        .M5{
+            width: 464px;
+            height: 866px;
+            background-color:#ffffff;
+            position: absolute;
+            left: 32px;
+            top:  1822px;
+            display: grid;
+            margin-inline: 0;
+          
+        }
+        .M5img{
+            width: 464px;
+           height: auto; 
+           position: absolute;
+           top:1822px;
+           left: 32px;
+        }
+        .M5div{
+            display: grid;
+            gap: 16px;
+            position: absolute;
+            top: 2302px;
+            left: 48px;
+            flex-direction: column;
+            width: 432px; 
+            max-width: 100%; 
+            z-index: 1;
+        }
+        h6{
+            font-family: "teko";
+            font-size: 1.5em;
+            position: relative;
+            left: 0px;  
+        }
+        .M5p{
+            font-family: "lato";
+            font-size: 1.5em; 
+            width: 432px; 
+            position: relative;
+            left: 0px;   
+        }
+        .watchnow5{
+            background-color: #231651;
+            color: #ffffff;
+            width:100%;
+            height: 100px;
+            font-family: "teko";
+            font-size: 2em;
+            border: 0px;
+            border-radius: 20px;
+            position: relative;
+            left:0;
+            
+        }
+        .M6{
+            width: 464px;
+            height: 866px;
+            background-color:#ffffff;
+            position: absolute;
+            left: 528px;
+            display: grid;
+            top:1822px;
+            margin-inline: 0;
+        }
+        .M6img{
+            width: 464px;
+            height: auto; 
+            position: absolute;
+            left: 528px;
+            top:1822px;
+    
+         }
+        .M6div{
+            display: grid;
+            gap: 16px;
+            position: absolute;
+            top: 2302px;
+            left: 544px;
+            flex-direction: column;
+            width: 432px; 
+            max-width: 100%; 
+            z-index: 1;
+        }
+        .M6heading{
+            font-family: "teko";
+            font-size: 1.5em;
+            position: relative;
+            left: 0px;
+        }
+        .M6p{
+            font-family: "lato";
+            font-size: 1.5em; 
+            width: 432px; 
+            position: relative;
+            left: 0px;    
+        }
+        .watchnow6{
+            background-color: #231651;
+            color: #ffffff;
+            width:100%;
+            height: 100px;
+            font-family: "teko";
+            font-size: 2em;
+            border: 0px;
+            border-radius: 20px;
+            position: relative;
+            left:0;
+          
+        }
+    }
+    @media(min-width:360px) and (max-width:720px){
+        header{
+            background-color: #4dccdb;
+            height: 82px;
+            width: 100%;
+            max-width: 360px;      
+            min-width: 720px;
+            align-content: center;  
+                     
+          
+        }
+        h1{
+            font-size: 3em;
+            position: relative;
+            left: 16px;
+            top: 16px;
+            font-family: "teko";
+            width: fit-content;
+        }
+    
+        .Nav{
+          
+            gap: 32px;
+            font-size: 0px;
+            position:relative;
+            top: 32px;
+            left: 0;
+            right: 0;
+            margin-inline: auto;
+            font-family: "lato";
+        }
+        .search{
+           
+            background-color: red;
+            font-family: "teko";
+            font-size: 2em;
+            position: absolute;
+            right: 16px;
+            top: 16px;
+            height: 50px;
+            width: 100px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+        }
+        
+        nav{
+            display: grid;
+            width: 0px;
+            position: absolute;
+            left: 0px;
+            height: 0px;
+            gap: 48px;
+            height: 6156px;
+            
+        }
+        nav{
+            display: grid;
+            left: 0px;
+            position: absolute;
+            width: 100%;
+            min-width: 720px;
+            max-width: 360px;
+
+
+         
+        }
+        .M1{
+            background-color: #ffffff;
+            margin-inline: 0;
+            height: 1003px;
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            width: 100%;
+            max-width: 688px;
+            min-width: 360px;
+        }
+        .M1img{
+            width: 688px;
+            max-width: 100%;
+            height: auto;
+            z-index: 1;
+            position: relative;
+            top: 16px;
+            left: 16px;
+            margin-inline: 0;
+        
+        }
+        h2{
+            font-family: "teko";
+            font-size: 1.5em;
+            position: relative;
+            color: black;
+            z-index: 1;
+            left: 0px;
+        }
+        .M1div{
+          display: flex;
+          gap: 16px;
+          position: absolute;
+          top: 721px;
+          left: 32px;
+          height: max-content;
+          flex-direction: column;
+          width: 656px;
+         
+        }
+        .M1p{
+          color: #070410;
+          font-family: "lato";
+          z-index: 1;
+          font-size: 1.5em;
+          width: 656px;
+          position: relative;
+          left: 0px;
+        }
+        .watchnow1{
+            background-color: #231651;
+            color: #ffffff;
+            width:100%;
+            height: 100px;
+            font-family: "teko";
+            font-size: 2em;
+            border: 0px;
+            border-radius: 20px;
+            position: absolute;
+            top: 182px;
+            left: 0;
+        }
+        .M2{
+            width: 688px;
+            height: 1030px;
+            background-color:#ffffff;
+            position: absolute;
+            top: 1035px;
+            left: 17px;
+        }
+       
+        .M2img{
+            width: 688px;
+            height: auto;
+            position: absolute;
+            top: 1035px;
+            left: 16px;
+            z-index: 1;
+        
+        }
+        .M2div{
+            display: grid;
+            gap: 16px;
+            position: absolute;
+            top: 1739px;
+            left: 32px;
+            flex-direction: column;
+            width: 656px;
+        }
+        h3{
+            font-family: "teko";
+            font-size: 1.5em;
+            position: relative;
+            left: 0px;
+        }
+        .M2p{
+            font-family: "lato";
+            font-size: 1.5em; 
+            width: 656px;
+            position: relative;
+            left: 0px;
+        }
+        .watchnow2{
+            background-color: #231651;
+            color: #ffffff;
+            width:100%;
+            height: 100px;
+            font-family: "teko";
+            font-size: 2em;
+            border: 0px;
+            border-radius: 20px;
+            position: relative;
+            left:0;
+          
+          
+        }
+        .M3{
+            width: 688px;
+            height: 1002px;
+            background-color:#ffffff;
+            position: absolute;
+            top: 2081px;
+            left: 16px;
+            display: grid;
+        
+        }
+        .M3img{
+            width: 688px;
+            height: auto;
+            position: absolute;
+            top: 2081px;
+            z-index: 1;
+            left: 16px;
+        }
+    
+        .M3div{
+            display: grid;
+            gap: 16px;
+            position: absolute;
+            top: 2785px;
+            left: 32px;
+            flex-direction: column;
+            width: 656px;
+            max-width: 100%;
+        }
+        h4{
+        
+            font-family: "teko";
+            font-size: 1.5em;
+            position: relative;
+            left: 0px;
+        }
+        .M3p{
+            font-family: "lato";
+            font-size: 1.5em; 
+            width: 656px;
+            position: relative;
+            left: 0px; 
+        }
+        .watchnow3{
+            background-color: #231651;
+            color: #ffffff;
+            width:100%;
+            height: 100px;
+            font-family: "teko";
+            font-size: 2em;
+            border: 0px;
+            border-radius: 20px;
+            position: relative;
+            left:0;
+           
+        }
+        .M4{
+            width: 688px;
+            height: 1030px;
+            background-color:#ffffff;
+            position: absolute;
+            left: 16px;
+            display: grid;
+            top: 3099px;
+            margin-inline: 0;
+        }
+        .M4img{
+            position: absolute;
+            left: 16px;
+            width: 688px;
+            top: 3099px;
+            height: auto;
+        
+        }
+        .M4div{
+            display: grid;
+            gap: 16px;
+            position: absolute;
+            top: 3803px;
+            left: 32px;
+            flex-direction: column;
+            width: 656px;
+            max-width: 100%; 
+            z-index: 1;
+        }
+        h5{
+            font-family: "teko";
+            font-size: 1.5em;
+            position: relative;
+            left: 0px;
+        }
+        .M4p{
+        font-family: "lato";
+        font-size: 1.5em; 
+        width: 656px;
+        position: relative;
+        left: 0px; 
+        }
+        .watchnow4{
+            background-color: #231651;
+            color: #ffffff;
+            width:100%;
+            height: 100px;
+            font-family: "teko";
+            font-size: 2em;
+            border: 0px;
+            border-radius: 20px;
+            position: relative;
+            left:0;
+         
+        }
+        .M5{
+            width: 688px;
+            height: 973px;
+            background-color:#ffffff;
+            position: absolute;
+            left: 16px;
+            top:  4145px;
+            display: grid;
+            margin-inline: 0;
+          
+        }
+        .M5img{
+            width: 688px;
+           height: auto; 
+           position: absolute;
+           top:4145px;
+           left: 16px;
+        }
+        .M5div{
+            display: grid;
+            gap: 16px;
+            position: absolute;
+            top: 4849px;
+            left: 32px;
+            flex-direction: column;
+            width: 656px;
+            max-width: 100%; 
+            z-index: 1;
+        }
+        h6{
+            font-family: "teko";
+            font-size: 1.5em;
+            position: relative;
+            left: 0px;  
+        }
+        .M5p{
+            font-family: "lato";
+            font-size: 1.5em; 
+            width: 656px;
+            position: relative;
+            left: 0px;   
+        }
+        .watchnow5{
+            background-color: #231651;
+            color: #ffffff;
+            width:100%;
+            height: 100px;
+            font-family: "teko";
+            font-size: 2em;
+            border: 0px;
+            border-radius: 20px;
+            position: relative;
+            left:0;
+            
+        }
+        .M6{
+            width: 688px;
+            height: 1005px;
+            background-color:#ffffff;
+            position: absolute;
+            left: 16px;
+            display: grid;
+            top: 5134px;
+            margin-inline: 0;
+        }
+        .M6img{
+            width: 688px;
+            height: auto; 
+            position: absolute;
+            left:16px;
+            top:5134px;
+    
+         }
+        .M6div{
+            display: grid;
+            gap: 16px;
+            position: absolute;
+            top: 5838px;
+            left: 32px;
+            flex-direction: column;
+            width: 656px;
+            max-width: 100%; 
+            z-index: 1;
+        }
+        .M6heading{
+            font-family: "teko";
+            font-size: 1.5em;
+            position: relative;
+            left: 0px;
+        }
+        .M6p{
+            font-family: "lato";
+            font-size: 1.5em; 
+            width: 656px;
+            position: relative;
+            left: 0px;    
+        }
+        .watchnow6{
+            background-color: #231651;
+            color: #ffffff;
+            width:100%;
+            height: 100px;
+            font-family: "teko";
+            font-size: 2em;
+            border: 0px;
+            border-radius: 20px;
+            position: relative;
+            left:0;
+          
+        }
+    }
+@media(min-width:0px)  and (max-width:360px){
+    header{
+        background-color: #4dccdb;
+        height: 82px;
+        width: 100%;                 
+      
+    }
+    h1{
+        font-size: 3em;
+        position: relative;
+        left: 16px;
+        top: 16px;
+        font-family: "teko";
+        width: fit-content;
+    }
+
+    .Nav{
+      
+        gap: 32px;
+        font-size: 0px;
+        position:absolute;
+        top: 32px;
+        left: 0;
+        right: 0;
+        margin-inline: auto;
+        font-family: "lato";
+    }
+    .search{
+       
+        background-color: red;
+        font-family: "teko";
+        font-size: 2em;
+        position: absolute;
+        right: 16px;
+        top: 16px;
+        height: 50px;
+        width: 100px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+    
+    nav{
+        display: grid;
+        width: 0px;
+        position: absolute;
+        left: 0px;
+        height: 0px;
+        gap: 48px;
+        height: 2597px;
+        
+    }
+    nav{
+        display: grid;
+        left: 0px;
+        position: absolute;
+        width: 360px;
+     
+    }
+    .M1{
+        background-color: #ffffff;
+        margin-inline: 0;
+        height: 847px;
+        position: absolute;
+        top: 16px;
+        left: 16px;
+        width: 328px;
+        max-width: 100%;
+    }
+    .M1img{
+        width: 328px;
+        max-width: 100%;
+        height: auto;
+        z-index: 1;
+        position: relative;
+        top: 16px;
+        left: 16px;
+        margin-inline: 0;
+    
+    }
+    h2{
+        font-family: "teko";
+        font-size: 1.5em;
+        position: relative;
+        color: black;
+        z-index: 1;
+        left: 0px;
+    }
+    .M1div{
+      display: flex;
+      gap: 16px;
+      position: absolute;
+      top: 358px;
+      left: 32px;
+      height: max-content;
+      flex-direction: column;
+      width: 296px;
+     
+    }
+    .M1p{
+      color: #070410;
+      font-family: "lato";
+      z-index: 1;
+      font-size: 1.5em;
+      width: 296px;
+      position: relative;
+      left: 0px;
+    }
+    .watchnow1{
+        background-color: #231651;
+        color: #ffffff;
+        width:100%;
+        height: 100px;
+        font-family: "teko";
+        font-size: 2em;
+        border: 0px;
+        border-radius: 20px;
+        position: absolute;
+        top: 389px;
+        left: 0;
+    }
+    .M2{
+        width: 328px;
+        height: 813px;
+        background-color:#ffffff;
+        position: absolute;
+        top: 879px;
+        left: 17px;
+    }
+   
+    .M2img{
+        width: 328px;
+        height: auto;
+        position: absolute;
+        top: 879px;
+        left: 16px;
+        z-index: 1;
+    
+    }
+    .M2div{
+        display: grid;
+        gap: 16px;
+        position: absolute;
+        top: 1222px;
+        left: 32px;
+        flex-direction: column;
+        width: 296px; 
+    }
+    h3{
+        font-family: "teko";
+        font-size: 1.5em;
+        position: relative;
+        left: 0px;
+    }
+    .M2p{
+        font-family: "lato";
+        font-size: 1.5em; 
+        width: 296px;
+        position: relative;
+        left: 0px;
+    }
+    .watchnow2{
+        background-color: #231651;
+        color: #ffffff;
+        width:100%;
+        height: 100px;
+        font-family: "teko";
+        font-size: 2em;
+        border: 0px;
+        border-radius: 20px;
+        position: relative;
+        left:0;
+      
+      
+    }
+    .M3{
+        width: 328px;
+        height: 757px;
+        background-color:#ffffff;
+        position: absolute;
+        top: 1708px;
+        left: 16px;
+        display: grid;
+    
+    }
+    .M3img{
+        width: 328px;
+        height: auto;
+        position: absolute;
+        top: 1708px;
+        z-index: 1;
+        left: 16px;
+    }
+
+    .M3div{
+        display: grid;
+        gap: 16px;
+        position: absolute;
+        top: 2052px;
+        left: 32px;
+        flex-direction: column;
+        width: 296px; 
+        max-width: 100%;
+    }
+    h4{
+    
+        font-family: "teko";
+        font-size: 1.5em;
+        position: relative;
+        left: 0px;
+    }
+    .M3p{
+        font-family: "lato";
+        font-size: 1.5em; 
+        width: 296px;
+        position: relative;
+        left: 0px; 
+    }
+    .watchnow3{
+        background-color: #231651;
+        color: #ffffff;
+        width:100%;
+        height: 100px;
+        font-family: "teko";
+        font-size: 2em;
+        border: 0px;
+        border-radius: 20px;
+        position: relative;
+        left:0;
+       
+    }
+    .M4{
+        width: 328px;
+        height: 843px;
+        background-color:#ffffff;
+        position: absolute;
+        left: 16px;
+        display: grid;
+        top: 2481px;
+        margin-inline: 0;
+    }
+    .M4img{
+        position: absolute;
+        left: 16px;
+        width: 328px;
+        top: 2481px;
+        height: auto;
+    
+    }
+    .M4div{
+        display: grid;
+        gap: 16px;
+        position: absolute;
+        top: 2825px;
+        left: 32px;
+        flex-direction: column;
+        width: 296px;
+        max-width: 100%; 
+        z-index: 1;
+    }
+    h5{
+        font-family: "teko";
+        font-size: 1.5em;
+        position: relative;
+        left: 0px;
+    }
+    .M4p{
+    font-family: "lato";
+    font-size: 1.5em; 
+    width: 296px;
+    position: relative;
+    left: 0px; 
+    }
+    .watchnow4{
+        background-color: #231651;
+        color: #ffffff;
+        width:100%;
+        height: 100px;
+        font-family: "teko";
+        font-size: 2em;
+        border: 0px;
+        border-radius: 20px;
+        position: relative;
+        left:0;
+     
+    }
+    .M5{
+        width: 328px;
+        height: 728px;
+        background-color:#ffffff;
+        position: absolute;
+        left: 16px;
+        top:  3340px;
+        display: grid;
+        margin-inline: 0;
+      
+    }
+    .M5img{
+       width: 328px;
+       height: auto; 
+       position: absolute;
+       top:3340px;
+       left: 16px;
+    }
+    .M5div{
+        display: grid;
+        gap: 16px;
+        position: absolute;
+        top: 3684px;
+        left: 32px;
+        flex-direction: column;
+        width: 296px; 
+        max-width: 100%; 
+        z-index: 1;
+    }
+    h6{
+        font-family: "teko";
+        font-size: 1.5em;
+        position: relative;
+        left: 0px;  
+    }
+    .M5p{
+        font-family: "lato";
+        font-size: 1.5em; 
+        width: 296px;
+        position: relative;
+        left: 0px;   
+    }
+    .watchnow5{
+        background-color: #231651;
+        color: #ffffff;
+        width:100%;
+        height: 100px;
+        font-family: "teko";
+        font-size: 2em;
+        border: 0px;
+        border-radius: 20px;
+        position: relative;
+        left:0;
+        
+    }
+    .M6{
+        width: 328px;
+        height: 787px;
+        background-color:#ffffff;
+        position: absolute;
+        left: 16px;
+        display: grid;
+        top: 4084px;
+        margin-inline: 0;
+    }
+    .M6img{
+        width: 328px;
+        height: auto; 
+        position: absolute;
+        left:16px;
+        top:4084px;
+
+     }
+    .M6div{
+        display: grid;
+        gap: 16px;
+        position: absolute;
+        top: 4428px;
+        left: 32px;
+        flex-direction: column;
+        width: 296px; 
+        max-width: 100%; 
+        z-index: 1;
+    }
+    .M6heading{
+        font-family: "teko";
+        font-size: 1.5em;
+        position: relative;
+        left: 0px;
+    }
+    .M6p{
+        font-family: "lato";
+        font-size: 1.5em; 
+        width: 296px;
+        position: relative;
+        left: 0px;    
+    }
+    .watchnow6{
+        background-color: #231651;
+        color: #ffffff;
+        width:100%;
+        height: 100px;
+        font-family: "teko";
+        font-size: 2em;
+        border: 0px;
+        border-radius: 20px;
+        position: relative;
+        left:0;
+      
+    }
+}
